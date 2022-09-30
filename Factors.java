@@ -9,7 +9,7 @@ public class Factors {
         System.out.println("Enter a number : ");
         int num = in.nextInt();
         for(int counter=1; counter <=num; counter++) {
-            if (num % counter == 0) {
+            if (num % i == 0) {         //error here
                 System.out.println(counter);
             }
         }
